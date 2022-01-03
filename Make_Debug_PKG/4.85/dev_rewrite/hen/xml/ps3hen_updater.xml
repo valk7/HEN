@@ -1,0 +1,156 @@
+<XMBML version="1.0">
+
+<!-- Category Network > ★ PS3HEN Updater -->
+
+	<View id="seg_ps3hen_updater">
+		<Attributes>
+			<!-- Category Network > ★ PS3HEN Updater > Update PS3HEN -->
+			<Table key="ps3hen_update">
+				<Pair key="icon"><String>/dev_flash/vsh/resource/explore/icon/hen_update_main.png</String></Pair>
+				<Pair key="title"><String>Обновить PS3HEN</String></Pair>
+				<Pair key="info"><String>Скачать и установить с сайта PS3Xploit.com</String></Pair>
+			</Table>
+			
+			<!-- Category Network > ★ PS3HEN Updater > Update Themes -->
+			<Table key="ps3hen_update_themes">
+				<Pair key="icon"><String>/dev_flash/vsh/resource/explore/icon/hen_update_theme.png</String></Pair>
+				<Pair key="title"><String>Обновить темы к HEN</String></Pair>
+				<Pair key="info"><String>Скачать и установить с сайта PS3Xploit.com</String></Pair>
+			</Table>
+			
+			<!-- Category Network > ★ PS3HEN Updater > Changelog -->
+			<Table key="ps3hen_about">
+				<Pair key="icon"><String>/dev_flash/vsh/resource/explore/icon/hen_update_info.png</String></Pair>
+				<Pair key="title"><String>PS3HEN v3.0.2 Official</String></Pair>
+				<Pair key="info"><String>Нажмите  для информации</String></Pair>
+				<Pair key="module_name"><String>webrender_plugin</String></Pair>
+				<Pair key="module_action"><String>javascript:window.resizeTo(screen.width,screen.height);window.moveTo(0,0);eval('var changelogs,$lastButton=null;function trimFn(t){return t.replace(/^\\s+|\\s+$/g,"")}function $(t){return"#"===t[0]?document.getElementById(t):document.querySelectorAll(t)}function toArray(t){return Array.prototype.slice.call(t)}function render(t,e){var n=toArray($(\47script[type="cl"]\47));$lastButton&&$lastButton.setAttribute("class",""),$(".content")[0].innerHTML="\74h1\76"+n[t].getAttribute("id")+"\74/h1\76"+changelogs[t].replace(/\\\74p\\\76\\\74\\/p\\\76/g,"").replace(/\\[(.+?)]\\((http[s]?:\\/\\/.+?)\\)/g,\47\74a href="$2" target="_blank"\76$1\74/a\76\47),e.setAttribute("class","-active"),$lastButton=e}function renderMenu(){var t=$(".side-menu")[0],e=toArray($(\47script[type="cl"]\47));t.innerHTML="\74li title\76Documentation\74/li\76"+e.map(function(t,e){return"\74li tabindex=\470\47 onclick=\47render("+e+",this)\47\76\74button\76"+t.getAttribute("id")+"\74/button\76\74/li\76"}).join("")}function main(){var t=toArray($(\47script[type="cl"]\47));changelogs=t.map(function(t){var e=t.innerHTML.split("\\n"),n=!1,r=e.reduce(function(t,e){var r=trimFn(e),u=r[0];if(""===r)return t+=n?"\74/ul\76":"",n=!1,t;switch(!0){case"#"===u:t+=n?"\74/ul\76":"",t+="\74h2\76"+r.substr(1)+"\74/h2\76",n=!1;break;case"-"===u:t+=n?"":"\74ul\76",t+="\74li\76"+r.substr(1)+"\74/li\76",n=!0;break;case"@"===u:t+=n?"\74/ul\76":"",t+="\74blockquote\76"+r.substr(1)+"\74/blockquote\76",n=!1;break;default:t+=n?"\74/ul\76":"",t+="\74p\76"+r+"\74/p\76",n=!1}return t},"");return r+=n?"\74/ul\76":""}),renderMenu(),render(0,$(".side-menu li")[1])}document.write(\47\74html\76\74head\76\74style\76body,html{height:100%;margin:0;overflow:hidden;padding:0;width:100%}*{-webkit-box-sizing:border-box}aside{background-color:#282828;border-right:3px solid #161616;display:block;height:100%;padding-top:8px;position:fixed;width:170px}section{background-color:#2e2e2e;height:100%;left:170px;margin:0;padding:32px;position:absolute;width:1654px}.side-menu{background-color:#2e2e2e;border-right:3px solid #373737;display:block;height:100%;list-style-type:none;margin:0;overflow:hidden;padding:0;position:fixed;top:0;width:200px;left:170px}.side-menu li{cursor:pointer;font-size:14px;font-weight:light;padding:10px 14px;padding-left:50px;position:relative;text-align:left}.side-menu li[title]{border-bottom:3px solid #373737;color:#fff;font-weight:700;margin-bottom:16px;margin-top:16px;user-select:none}.side-menu li:hover{background-color:#373737}.side-menu li button{background-color:transparent;border:0;color:#fff;text-align:left;width:100%}.side-menu li.-active{background-color:#ebebeb;font-size:20px;font-weight:700;left:-32px;margin-right:-32px}.side-menu li.-active button{color:#272727}.-scrollbar::-webkit-scrollbar{width:8px}.-scrollbar::-webkit-scrollbar-track{-webkit-box-shadow:inset 0 0 6px #161616}.-scrollbar::-webkit-scrollbar-thumb{-webkit-border-radius:4px;background-color:rgba(0,0,0,.6)}.content{background-color:#4e4e4e;color:#fff;height:100%;left:370px;overflow:hidden;overflow-y:auto;padding:32px;padding-top:32px;position:absolute;top:0;width:846px}.content h1,.content h2{-webkit-border-radius:5px;border-bottom:3px solid #161616;font-weight:700;margin:0;padding:8px 16px;text-shadow:2px 2px #000}.content h1{background-color:#181818;font-size:44px;margin-bottom:32px}.content h2{background-color:#202020;border-bottom:3px solid #161616;font-size:24px}.content\76ul{padding-bottom:16px}.content li{font-size:18px;margin-bottom:4px}.content\76blockquote{font-weight:700}blockquote{font-size:20px;background-color:#161616;border-bottom:3px solid #161616;border-left:4px solid #0f0;margin:8px 10px;padding:8px 16px;margin-left:48px;margin-bottom:32px;-webkit-border-radius:10px}a{color:#000;font-weight:700;text-decoration:none}a::after{content:"";font-size:12px;position:relative;margin-left:4px;top:-6px;text-decoration:underline}@media only screen and (min-width:1824px){.side-menu{width:360px}.side-menu li{font-size:24px;padding:16px 14px;padding-left:80px}.side-menu li.-active{font-size:32px}.content{left:530px;width:1294px}.content h1,.content h2{padding:16px}blockquote{padding:16px}}\74/style\76\74/head\76\74body\76 \74aside\76\74img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" /\76\74/aside\76 \74section\76\74ul class="side-menu"\76\74/ul\76\74/section\76\74div class="content -scrollbar" tabindex="0"\76\74/div\76\47+["\74script type=\\"cl\\" id=\\"3.0.0\\"\76","#Global Changes","- No Longer Officially Supporting 4.82 Firmware","#HEN Plugin Changes","- Fixed freezing if DVD or CD is already inserted into PS3 when HEN is enabled","- Showing error message if reply length is too short from server","#Payload Changes","- Fixed Freezing Problems on All Models","- Fixed Issues With Incompatible Models","- Improved Sanity Checks","\74/script\76","\74script type=\\"cl\\" id=\\"2.4.0\\"\76","#Global Changes","- Stage2 size went from 100kb+ to 90kb","#Payload Changes","- Added VSH patches and disabled signature check of RIF, now other tools are compatible","- PS3MAPI can now write to VSH text segment like CFW","- Disabled VSH check in RIF that R and S cant be just 0","- DLC/PSX games RAP support added","- Fixed hitching of PSX PAL on NTSC TV and vice versa","- Removed unnecessary hooks on CellFsOpen/CellFsRead/CellFsClose, possibly increasing stability","- Speed improvement when loading NPDRM type 2 games (need original or RAP Activated RIF), CPU couldnt generate ECDSA fast enough","- Fixed issue where people sometimes got stuck downloading games from PSN","\74/script\76","\74script type=\\"cl\\" id=\\"2.3.3 BETA\\"\76","#Payload Changes","- Remapping HFW XML from /dev_flash/ now instead of /dev_hdd0/","#Resource Changes","- Updated path pointing to ps3hen_updater.xml in hfw_settings.xml","\74/script\76","\74script type=\\"cl\\" id=\\"2.3.2\\"\76","#HEN Plugin Changes","- Updated To Support 4.85 HFW","#Payload Changes","- Updated To Support 4.85 HFW","\74/script\76","\74script type=\\"cl\\" id=\\"2.3.1\\"\76","#HEN Plugin Changes","- Fixed the issue when Network is disabled","#Payload Changes","- Now mounts both dev_rewrite & dev_blind to save the scene","#Resource Changes","- Added duplicate icon fix by DeViL303","\74/script\76","\74script type=\\"cl\\" id=\\"2.3.0\\"\76","#Global Changes","- Exploit init is faster","- Increased sleep in html, removed from bins","#HEN Plugin Changes","- HEN Updater added with version check","- Fixed crash that sometimes happened on init","- If HEN doesnt init an automated soft reboot takes place","- HEN can be enabled when failed, and ran successively, without reboot","- Removed infinite loop. One second is 10 tries, otherwise reboot","#Payload Changes","- SELF Decrypter Fix","- Fixed some blackscreen issues","- Fixed freezing if someone tries to enable hen successfully twice","- Optimizations added to how much stack is available to the syscalls (original vs before original-0xd0). Thanks aldostools","- Handler requests are passed fast, removed many branch conditions there for faster handling","- Updated extended download plugin patches, per DeViL303 suggestion","- HEN queue is drained before the patches get disabled, and also synchronized properly the check to synchronize remove and do patches","\74/script\76","\74script type=\\"cl\\" id=\\"2.2.2\\"\76","#Payload Changes","- HEN_init freezing fixed by timer change","- Syscall handler bug fixed, removed 2 second hang on xmb no cleanup thread","- HashCalc bug fixed, strict hashcheck","- USB Package installation support for HEN installer","#Resource Changes","- Updated videoplayer_plugin.sprx to use proper DEX version for each firmware version","\74/script\76","\74script type=\\"cl\\" id=\\"2.2.1\\"\76","#Global Changes","- The stackframe and PS3HEN bins are now merged as a single payload binary (PS3HEN.BIN)","- Added HEN refresh and version display on initialize, using embedded plugin","- Replaced dev_blind with dev_rewrite to maintain RW state at all times","- On Boot, HEN Enabler icon is selected by default","#HEN Plugin Changes","- HEN version notification on boot","- Refreshes Game and Network Category","- Enables in-game Screenshot feature","- Unloads Itself","#Payload Changes","- HEN Installer feature added and memory management changes","- Fixed Encryption","- HMAC Hash Validation","- PSP ISO Launcher Support","- PS2Classics launcher activation on the fly (thanks aldostools)","- Impoved compatibility with apps like MultiMan and others which replace syscall 6-10","- Cleanup thread added and Faster boot times for app increasing stability","- Embedded buffers and removed memory fragmentation","- Memory Management of map_path improved","- Memory Optimization (no embedded buffer for kernel plugin, only allocs when requested)","- Fail-safe added for stage0 incase stage2 not found (thanks aldostools)","- Fixed bug where if kernel plugin was more than 64kb it will crash PS3","- Fixed extern typo of 64mb to 64kb","- Added missing COBRA patches & BT/USB passthrough support added","- PS3MAPI bugfix + Stability","- Self Threading Support. Fixes the issue with a few games (SC Trilogy and etc). Currently ISO/NetISO not supported","- Improved SELF auth (Fixes games that run multiple executables. Stability improved)","#Resource Changes","- Default Theme Pack removed from main package and can now download from Themes Updater","- HEN Theme Pack by Itroublve_Hacker downloadable package updated with fixed icons","- PKG Linker is now located under Package Manager - Install Packages","- Cleaned Up Unused XML Entries. Added 1 query for external.xml on usb000 (thanks DeViL303)","- Replaced Manual link from Network column with PS3Xploit Home link","- Added new coldboot, icons, and JS/HTML overlay (thanks xps3riments)","\74/script\76","\74script type=\\"cl\\" id=\\"2.1.1\\"\76","# Stackframe Binary","- 4.82 CEX is now supported! Each FW version has its own stackframe, package, and update XML.","# PS3HEN Payload","- PSNPatch is fixed, no more freezing from syscall removal","- Remap for HFW_settings is now fully protected, no more disappearing HFW tools","- Stability patches added on initial boot process","- HEN Check added to not freeze if missing files","# Resources","- PKG Linker entries added to category_game.xml","\74/script\76","\74script type=\\"cl\\" id=\\"2.1.0\\"\76","@Many thanks to Habib who accidentally released v1.0.0 as anonymous ;)","# PS3HEN Payload","- Payload size is reduced by 20kb","- Advanced QA Flag. This DOES NOT allow downgrading!","- Debug Settings Enabler added","- AES calculation now uses internal library from LV2","- RAP can now be loaded / accessed from dev_hdd0/exdata","#Resources","- Added Update Themes option to PS3HEN Updater menu","- Added theme pack by \\"Itroublve Hacker\\" to PS3HEN Updater -\76 Update Themes","- Small text edit on \\"Theme selector\\" is now \\"Theme Selector\\" under Hybrid Firmware Tools","\74/script\76","\74script type=\\"cl\\" id=\\"2.0.2\\"\76","#Stackframe Binary","- C00 unlocker activated by default","#PS3HEN Payload","- RAP activation on the fly, default path : usb000/exdata/\74rap\76 or usb001/exdata/\74rap\76","- Fixed issue with official NPDRM content rif deletion and unable to boot error","- PS2 classics launcher support","- Added @DeViL303\47s advanced download plugin patches","- Fixed Install All Packages","- Fixed explore_plugin patches","- App restriction on RemotePlay with PC removed","- Improved games compatibilty e.g COD3","- Enabling dev_blind by default","- Multiple path on boot_plugins & boot_plugins_kernel (HDD & USB) Thanks to @aldostools","- Hybrid Firmware Tools available when HEN\47s activated (Enable HEN to use this feature) *","- *Only available via PS3HEN PKG installation","#Resources","- Fixed infinite spinning wheel when in-game","- Both REBUG and Stock Edition available","- Hybrid Firmware Tools available via PKG installation","- HEN updater support available under Network Category","- Official firmware updates via internet blocked","\74/script\76","\74script type=\\"cl\\" id=\\"2.0.1 BETA\\"\76","- mappath is used for enabling xai_plugin so it wouldn\47t appear on fresh boot.","- Remote Play with PC restriction removed","- @DeViL303\47s extended download_plugin support added (offline pkg includes v1.01 HEN edition)","- Hybrid Firmware Tools (equivalent to CFW settings with less features)","- Both Stock and REBUG edition (theme) available.","- webMAN MOD 1.47.20 beta integrated (auto-refresh Game and Network Categories, detection of re-enabled cfw syscalls)","- Added option to re-enable cfw syscall by accessing the system update menu on XMB Settings","\74/script\76","\74script type=\\"cl\\" id=\\"2.0.0\\"\76","- HOTFIX: Removed HEN Check From Offline Packages","- Fake flash is no longer used, in favor of on-the-fly patching","- Fixed blackscreen crashes","- Fixed random recovery kicks","- ISO support added","- PS3MAPI support can now read/set process mem using webman","- KW stealth extensions added","- Random lv2 panic fixed","- Added check in html for hen success","- Kernel plugins support","- Photo gui opcode support for webman","- Syscall 389/409 product mode check disabled","- Opcode 1339 added, returns HEN version (0x0200)","- Full BD/DVD ISO support (AACS decryption required for BDRip)","#Notes:","@WebmanMOD tested with 1.47.17 and 1.47.19, with fan control and PS3MAPI working","\74/script\76","\74script type=\\"cl\\" id=\\"1.0.0\\"\76","- Managunz backup manager works best for jb rips(ISO not supported)!","- MULTIMAN works too but compatibility is not the same.","- PSXISO Support is there!!!!","- BD/DVD Region patches","- BDISO support(stutter with xmb, use showtime)","- BOOTPLUGINS WORK location \\"/dev_usb000/boot_plugins_nocobra.txt\\"(Use webman original one and not the mod one. also disable - content scan on boot in settings)","- Discless games work with disc icon!","- Syscall 6 added","- Syscall 7 added(address\760x8000000000352230) and disabled overwriting syscall 0-\7615","- Syscall 15 added","- Syscall 8 opcodes added for detection HEN and for advanced lv2 poke(read DEVELOPER SECTION)","- Whole kernel memory RWX(execute kernel payload like this at high locations or hook syscalls etc)","- PS3MAPI support for modding","- Debug PKG install","- Homebrew resigned for 3.55 and less support!","- Homebrew Root Flags enabled!","- HAN PKG install support","- PSN Connectivity","- All process executed after HEN have rwx permissions!","- HAN Enabled by default!","#CFW PATCHES:","- CFW settings","- Retail/DEBUG pkg installation","- Unlink to Delete","- Remote play with PC","- Download debug pkg on retail","- Remote play ignores SFO check","- Cinavia protection","- Videoplayer_plugin","- DVD region check (not cracking RCE)","- REBUG themed RCO & XML","- AIO copy","#NOTES:","@ if you get error 80010017 launching homebrew that simply means HEN failure, restart console and try again!(restart is important!) also try deleting cache, browsing data, cookies and the likes from browser, make the exploit page the home page","#DEVELOPERS:","-#define SYSCALL8_OPCODE_IS_HEN ⇨ 0x1337","-using this if return 0x1337 its hen","-ADVANCED POKE:syscall8(0x7003, addr, value); ⇨ this allows poking any location in lv2 memory BUT you have to restore original value before exiting to another application or exiting to xmb.USE WISELY OTHERWISE PS3 SHUTS DOWN","- BDMIRROR:Managunz FTW!(please use Cobra payload because by default its MULTIMAN)","- NOTE:mounting dev_blind will actually mount dev_flash. change files directly from dev_flash instead or hdd0/plugins/CFW/","- Kernel Mode returns 0x53434500 on success to user webkit 0x8a000000. its good to measure HEN success. right now hen is already close to or is 100%","\74/script\76",""].join("\\n")+\47\74/body\76\74/html\76\47),main();')</String></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<!-- UNCOMMENT THE APPROPRIATE BUILD BELOW -->
+			<Query class="type:x-xmb/folder-pixmap" key="ps3hen_update" attr="ps3hen_update" src="#hen_f2"/>		
+			<Query class="type:x-xmb/folder-pixmap" key="ps3hen_update_themes" attr="ps3hen_update_themes" src="#ps3hen_update_themes_items"/>
+			<Query class="type:x-xmb/module-action" key="ps3hen_about"  attr="ps3hen_about"/>
+		</Items>
+	</View>
+
+<!-- Category Network > ★ PS3HEN Updater > Update Themes -->
+
+	<View id="ps3hen_update_themes_items">
+		<Attributes>
+			<Table key="ps3hen_update_themes_default">
+				<Pair key="icon"><String>/dev_flash/vsh/resource/explore/icon/folder_theme_sub.png</String></Pair>
+				<Pair key="title"><String>Темы по умолчанию</String></Pair>
+				<Pair key="info"><String>Включает синюю и красную тему</String></Pair>
+			</Table>
+			<Table key="ps3hen_update_themes_1">
+				<Pair key="icon"><String>/dev_flash/vsh/resource/explore/icon/folder_theme_sub.png</String></Pair>
+				<Pair key="title"><String>Пак темы от Itroublve_Hacker</String></Pair>
+				<Pair key="info"><String>Включает 7 цветовых вариаций</String></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="ps3hen_update_themes_default" attr="ps3hen_update_themes_default" src="#ps3hen_update_themepacks_dl_default"/>
+			<Query class="type:x-xmb/folder-pixmap" key="ps3hen_update_themes_1" attr="ps3hen_update_themes_1" src="#ps3hen_update_themepacks_dl1"/>
+		</Items>
+	</View>
+
+<!-- Category Network > ★ PS3HEN Updater > Update Themes > Theme Packs -->
+
+	<View id="ps3hen_update_themepacks_dl_default">
+		<Attributes>
+			<Table key="ps3hen_update_themes_download_default">
+				<Pair key="info"><String>net_package_install</String></Pair>
+				<Pair key="pkg_src"><String>http://ps3xploit.com/hen/theme/HEN_Theme_Pack_Default_signed.pkg</String></Pair>
+				<Pair key="pkg_src_qa"><String>http://ps3xploit.com/hen/theme/HEN_Theme_Pack_Default_signed.pkg</String></Pair>
+				<Pair key="content_name"><String>pkg_pc</String></Pair>
+				<Pair key="content_id"><String>CUSTOM-INSTALLER_00-0000000000000000</String></Pair>
+				<Pair key="prod_pict_path"><String>/dev_flash/vsh/resource/explore/icon/bubble_download.png</String></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/xmlnpsignup" key="ps3hen_update_themes_download_default" attr="ps3hen_update_themes_download_default"/>
+		</Items>
+	</View>
+
+	<View id="ps3hen_update_themepacks_dl1">
+		<Attributes>
+			<Table key="ps3hen_update_themes_download_1">
+				<Pair key="info"><String>net_package_install</String></Pair>
+				<Pair key="pkg_src"><String>http://ps3xploit.com/hen/theme/HEN_Theme_Pack_by_Itroublve_Hacker_signed.pkg</String></Pair>
+				<Pair key="pkg_src_qa"><String>http://ps3xploit.com/hen/theme/HEN_Theme_Pack_by_Itroublve_Hacker_signed.pkg</String></Pair>
+				<Pair key="content_name"><String>pkg_pc</String></Pair>
+				<Pair key="content_id"><String>CUSTOM-INSTALLER_00-0000000000000000</String></Pair>
+				<Pair key="prod_pict_path"><String>/dev_flash/vsh/resource/explore/icon/bubble_download.png</String></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/xmlnpsignup" key="ps3hen_update_themes_download_1" attr="ps3hen_update_themes_download_1"/>
+		</Items>
+	</View>
+
+		<View id="hen_f2">
+		<Attributes>
+			<Table key="hen_f21_item">			
+				<Pair key="icon"><String>/dev_flash/vsh/resource/explore/icon/hen_update_main.png</String></Pair>
+				<Pair key="title"><String>HEN - Английская версия</String></Pair>
+				<Pair key="info"><String>Оффициальная версия.</String></Pair>	
+			</Table>
+			<Table key="hen_f23_item">			
+				<Pair key="icon"><String>/dev_flash/vsh/resource/explore/icon/hen_update_main.png</String></Pair>
+				<Pair key="title"><String>HEN - Русская версия</String></Pair>
+				<Pair key="info"><String>Русифицирован и немного модифицирован</String></Pair>
+			</Table>
+			</Attributes>
+			<Items>
+			<Query 
+				class="type:x-xmb/folder-pixmap" 
+				key="hen_f21_item"
+				attr="hen_f21_item"
+				src="#ps3hen_update_default_setup_main"
+				/>			
+			<Query 
+				class="type:x-xmb/folder-pixmap" 
+				key="hen_f23_item"
+				attr="hen_f23_item"
+				src="#hen_rus"
+				/>		
+			</Items>
+		</View>	
+
+<!-- Category Network > ★ PS3HEN Updater > Default Noob Setup -->
+
+	<View id="ps3hen_update_default_setup_main">
+		<Attributes>
+			<Table key="ps3hen_update_default_setup_item">
+				<Pair key="info"><String>net_package_install</String></Pair>
+				<Pair key="pkg_src"><String>http://ps3xploit.com/hen/release/485/cex/installer/Latest_HEN_Installer_signed.pkg</String></Pair>
+				<Pair key="pkg_src_qa"><String>http://ps3xploit.com/hen/release/485/cex/installer/Latest_HEN_Installer_signed.pkg</String></Pair>
+				<Pair key="content_name"><String>pkg_pc</String></Pair>
+				<Pair key="content_id"><String>CUSTOM-INSTALLER_00-0000000000000000</String></Pair>
+				<Pair key="prod_pict_path"><String>/dev_flash/vsh/resource/explore/icon/bubble_download.png</String></Pair>
+ 			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/xmlnpsignup" key="ps3hen_update_default_setup_item" attr="ps3hen_update_default_setup_item"/>
+		</Items>
+	</View>
+	
+	<View id="hen_rus">
+		<Attributes>
+			<Table key="hen_f23_item">
+				<Pair key="info"><String>net_package_install</String></Pair>
+				<Pair key="pkg_src"><String>https://nikolaevich23.github.io/alt/4.85/latest_rus_sign.pkg</String></Pair>
+				<Pair key="pkg_src_qa"><String>https://nikolaevich23.github.io/alt/4.85/latest_rus_sign.pkg</String></Pair>
+				<Pair key="content_name"><String>pkg_install_pc</String></Pair>
+				<Pair key="content_id"><String>CUSTOM-INSTALLER_00-0000000000000000</String></Pair>
+				<Pair key="prod_pict_path"><String>/dev_flash/vsh/resource/explore/icon/bubble_download.png</String></Pair>				
+ 			</Table>
+		</Attributes> 
+			<Items>
+			<Item class="type:x-xmb/xmlnpsignup" key="hen_f23_item" attr="hen_f23_item"/>
+		</Items> 
+		</View>
+
+</XMBML>

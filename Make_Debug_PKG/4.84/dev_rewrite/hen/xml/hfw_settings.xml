@@ -1,0 +1,298 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<XMBML version="1.0">
+
+	<View id="seg_hfw_settings">
+		<Attributes>
+			<Table key="hfw_settings">
+				<Pair key="icon"><String>/dev_flash/vsh/resource/explore/icon/folder_hft.png</String></Pair>
+				<Pair key="icon_notation"><String>WNT_XmbItemAlbum</String></Pair>
+				<Pair key="title"><String>★ Инструменты для HEN</String></Pair>
+				<Pair key="info"><String></String></Pair>
+                <Pair key="ingame"><String>disable</String></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="hfw_settings" attr="hfw_settings" src="#seg_settings_menu"/>
+		</Items>
+	</View>
+
+	<View id="seg_settings_menu">
+		<Attributes>
+			<Table key="reboot_ps3">
+				<Pair key="icon"><String>/dev_flash/vsh/resource/explore/icon/folder_reboot.png</String></Pair>
+				<Pair key="icon_notation"><String>WNT_XmbItemAlbum</String></Pair>
+				<Pair key="title"><String>★ Перегрузить PS3</String></Pair>
+			</Table>
+			<Table key="dump_tools">
+				<Pair key="icon"><String>/dev_flash/vsh/resource/explore/icon/folder_dump.png</String></Pair>
+				<Pair key="icon_notation"><String>WNT_XmbItemAlbum</String></Pair>
+				<Pair key="title"><String>★ Дамп Инструменты</String></Pair>
+			</Table>
+			<Table key="recovery_menu">
+				<Pair key="icon"><String>/dev_flash/vsh/resource/explore/icon/folder_service.png</String></Pair>
+				<Pair key="icon_notation"><String>WNT_XmbItemAlbum</String></Pair>
+				<Pair key="title"><String>★ Сервисные инструменты</String></Pair>
+			</Table>
+			<Table key="ingame_settings">
+				<Pair key="icon"><String>/dev_flash/vsh/resource/explore/icon/folder_ingame.png</String></Pair>
+				<Pair key="icon_notation"><String>WNT_XmbItemAlbum</String></Pair>
+				<Pair key="title"><String>★ Игровые настройки</String></Pair>
+			</Table>
+            <Table key="ps3hen_theme">
+				<Pair key="icon"><String>/dev_flash/vsh/resource/explore/icon/folder_theme_select.png</String></Pair>
+                <Pair key="icon_notation"><String>WNT_XmbItemAlbum</String></Pair>
+                <Pair key="title"><String>★ Выбор темы</String></Pair>
+                <Pair key="info"><String>Включите HEN перед заменой темы</String></Pair>
+				<Pair key="child"><String>segment</String></Pair>
+            </Table>
+			<Table key="ps3hen_updater">
+				<Pair key="icon"><String>/dev_flash/vsh/resource/explore/icon/folder_download.png</String></Pair>
+				<Pair key="icon_notation"><String>WNT_XmbItemAlbum</String></Pair>
+				<Pair key="title"><String>★ Обновление PS3HEN</String></Pair>
+				<Pair key="info"><String>Вы должны перегрузить консоль после установки</String></Pair>
+			</Table>
+			<Table key="update_toolbox_main">
+				<Pair key="icon"><String>/dev_flash/vsh/resource/explore/icon/folder_download.png</String></Pair>
+				<Pair key="title"><String>HEN Toolbox Mod</String></Pair>
+				<Pair key="info"><String>Установить/Обновить HEN Toolbox Mod</String></Pair>
+ 			</Table>			
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="reboot_ps3"		attr="reboot_ps3"		src="#seg_reboot_ps3"/>
+			<Query class="type:x-xmb/folder-pixmap" key="ingame_settings"	attr="ingame_settings"	src="#seg_ingame_settings"/> 
+			<Query class="type:x-xmb/folder-pixmap" key="dump_tools"		attr="dump_tools"		src="#seg_dump_tools"/>
+			<Query class="type:x-xmb/folder-pixmap" key="recovery_menu"		attr="recovery_menu"	src="#seg_recovery_menu"/>
+            <Query class="type:x-xmb/folder-pixmap" key="ps3hen_theme"		attr="ps3hen_theme"		src="#seg_ps3hen_theme"/>			
+			<Query class="type:x-xmb/folder-pixmap" key="ps3hen_update"		attr="ps3hen_updater"	src="xmb://localhost/dev_flash/hen/xml/ps3hen_updater.xml#seg_ps3hen_updater"/>
+			<Query class="type:x-xmb/folder-pixmap"	key="update_toolbox_main" attr="update_toolbox_main" src="#update_toolbox_item"/>
+		</Items>
+	</View>
+	
+	<View id="update_toolbox_item">
+		<Attributes>
+			<Table key="update_toolbox_link">
+				<Pair key="info"><String>net_package_install</String></Pair>
+				<Pair key="pkg_src"><String>https://www.dropbox.com/s/34w9ymen8ofitjr/HEN_toolbox_mod.pkg?dl=1</String></Pair>
+				<Pair key="pkg_src_qa"><String>https://www.dropbox.com/s/34w9ymen8ofitjr/HEN_toolbox_mod.pkg?dl=1</String></Pair>
+				<Pair key="content_name"><String>msg_install</String></Pair>
+				<Pair key="content_id"><String>2PATCH-HENTOOLBX_00-HEN0HENTOOLBX000</String></Pair>
+				<Pair key="prod_pict_path"><String>/dev_hdd0/game/HENTOOLBX/USRDIR/icon/hendl</String></Pair>
+ 			</Table> 
+		</Attributes> 
+			<Items>
+			<Item class="type:x-xmb/xmlnpsignup" key="update_toolbox_link" attr="update_toolbox_link"/>
+		</Items> 
+	</View>
+
+	<View id="seg_reboot_ps3">
+		<Attributes>
+			<Table key="soft_reboot_action">
+				<Pair key="icon"><String>/dev_flash/vsh/resource/explore/icon/power_soft.png</String></Pair>
+				<Pair key="title"><String>★ Софтребут</String></Pair>
+				<Pair key="info"><String></String></Pair>
+				<Pair key="module_name"><String>xai_plugin</String></Pair>
+				<Pair key="module_action"><String>soft_reboot_action</String></Pair>
+				<Pair key="ingame"><String>disable</String></Pair>
+				<Pair key="bar_action"><String>none</String></Pair>
+				<Pair key="lbl_half"><String>1</String></Pair>
+			</Table>
+			<Table key="hard_reboot_action">
+				<Pair key="icon"><String>/dev_flash/vsh/resource/explore/icon/power_full.png</String></Pair>
+				<Pair key="title"><String>★ Хардребут</String></Pair>
+				<Pair key="info"><String></String></Pair>
+				<Pair key="module_name"><String>xai_plugin</String></Pair>
+				<Pair key="module_action"><String>hard_reboot_action</String></Pair>
+				<Pair key="ingame"><String>disable</String></Pair>
+				<Pair key="bar_action"><String>none</String></Pair>
+				<Pair key="lbl_half"><String>1</String></Pair>
+			</Table>
+			<Table key="power_off_action">
+				<Pair key="icon"><String>/dev_flash/vsh/resource/explore/icon/power_off.png</String></Pair>
+				<Pair key="title"><String>★ Выключить PS3</String></Pair>
+				<Pair key="info"><String></String></Pair>
+				<Pair key="module_name"><String>xai_plugin</String></Pair>
+				<Pair key="module_action"><String>power_off_action</String></Pair>
+				<Pair key="ingame"><String>disable</String></Pair>
+				<Pair key="bar_action"><String>none</String></Pair>
+				<Pair key="lbl_half"><String>1</String></Pair>
+			</Table>
+		</Attributes>
+		<Items>		  
+			<Item class="type:x-xmb/module-action" key="soft_reboot_action"		attr="soft_reboot_action"/>
+			<Item class="type:x-xmb/module-action" key="hard_reboot_action"		attr="hard_reboot_action"/>
+			<Item class="type:x-xmb/module-action" key="power_off_action"		attr="power_off_action"/>
+		</Items>
+	</View>	
+
+	<View id="seg_ps3hen_theme">
+		<Items>		  
+			<Query class="type:x-xmb/xmlpackagefolder" key="theme_switch" src="host://localhost/q?path=/dev_hdd0/hen/themes&suffix=.pkg&subclass=x-host/package"/>	  
+		</Items>
+	</View>	
+	
+	<View id="seg_ingame_settings">
+		<Attributes>
+			<Table key="enable_screenshot">
+				<Pair key="icon"><String>/dev_flash/vsh/resource/explore/icon/ingame_enable_ss.png</String></Pair>
+				<Pair key="title"><String>Enable In-Game Screenshot</String></Pair>
+				<Pair key="info"><String></String></Pair>
+				<Pair key="module_name"><String>xai_plugin</String></Pair>
+				<Pair key="module_action"><String>enable_screenshot</String></Pair>
+				<Pair key="bar_action"><String>none</String></Pair>
+				<Pair key="lbl_half"><String>1</String></Pair>
+			</Table>
+			<Table key="enable_recording">
+				<Pair key="icon"><String>/dev_flash/vsh/resource/explore/icon/folder_list.png</String></Pair>
+				<Pair key="title"><String>Enable Gameplay Recording</String></Pair>
+				<Pair key="info"><String></String></Pair>
+				<Pair key="module_name"><String>xai_plugin</String></Pair>
+				<Pair key="module_action"><String>enable_recording</String></Pair>
+				<Pair key="bar_action"><String>none</String></Pair>
+				<Pair key="lbl_half"><String>1</String></Pair>
+			</Table>
+			<Table key="override_sfo">
+				<Pair key="icon"><String>/dev_flash/vsh/resource/explore/icon/ingame_override_sfo.png</String></Pair>
+				<Pair key="title"><String>Пропатчить Param.SFO</String></Pair>
+				<Pair key="info"><String>Активировать атрибут в SFO для включения RemotePlay + SystemBGM в играх с дисками без обновлений</String></Pair>
+				<Pair key="module_name"><String>xai_plugin</String></Pair>
+				<Pair key="module_action"><String>override_sfo</String></Pair>
+				<Pair key="bar_action"><String>none</String></Pair>
+				<Pair key="lbl_half"><String>1</String></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<!-- <Item class="type:x-xmb/module-action" key="enable_screenshot"		attr="enable_screenshot"/> -->
+			<!--<Item class="type:x-xmb/module-action" key="enable_recording"		attr="enable_recording"/>-->
+			<Item class="type:x-xmb/module-action" key="override_sfo"			attr="override_sfo"/>
+		</Items>
+	</View>
+
+	<View id="seg_dump_tools">
+		<Attributes>
+			<Table key="view_log">
+				<Pair key="icon"><String>/dev_flash/vsh/resource/explore/icon/dump_view_log.png</String></Pair>
+				<Pair key="title"><String>Посмотреть логи</String></Pair>
+				<Pair key="info"><String>http://localhost/dev_hdd0/tmp/hfw_settings.log
+				(требуется WebMAN MOD для этой функции)</String></Pair>
+				<Pair key="module_name"><String>webrender_plugin</String></Pair>
+				<Pair key="module_action"><String>http://localhost/dev_hdd0/tmp/hfw_settings.log</String></Pair>
+			</Table>			
+			<Table key="clean_log">
+				<Pair key="icon"><String>/dev_flash/vsh/resource/explore/icon/dump_clean_log.png</String></Pair>
+				<Pair key="title"><String>Очистить логи</String></Pair>
+				<Pair key="info"><String>/dev_hdd0/tmp/hfw_settings.log</String></Pair>
+				<Pair key="module_name"><String>xai_plugin</String></Pair>
+				<Pair key="module_action"><String>clean_log</String></Pair>
+				<Pair key="bar_action"><String>none</String></Pair>
+				<Pair key="lbl_half"><String>1</String></Pair>
+			</Table>
+			<Table key="dump_idps">
+				<Pair key="icon"><String>/dev_flash/vsh/resource/explore/icon/dump_idps.png</String></Pair>
+				<Pair key="title"><String>Дамп IDPS</String></Pair>
+				<Pair key="info"><String>Сохраняет IDPS в лог-файл</String></Pair>
+				<Pair key="module_name"><String>xai_plugin</String></Pair>
+				<Pair key="module_action"><String>dump_idps</String></Pair>
+				<Pair key="bar_action"><String>none</String></Pair>
+				<Pair key="lbl_half"><String>1</String></Pair>
+			</Table>
+			<Table key="log_klic">
+				<Pair key="icon"><String>/dev_flash/vsh/resource/explore/icon/dump_log_klicense.png</String></Pair>
+				<Pair key="title"><String>Журнал использования KLicense</String></Pair>
+				<Pair key="info"><String>Сохраняет имя файла и klicensee в файл журнала</String></Pair>
+				<Pair key="module_name"><String>xai_plugin</String></Pair>
+				<Pair key="module_action"><String>log_klic</String></Pair>
+				<Pair key="bar_action"><String>none</String></Pair>
+				<Pair key="lbl_half"><String>1</String></Pair>
+			</Table>
+			<Table key="log_secureid">
+				<Pair key="icon"><String>/dev_flash/vsh/resource/explore/icon/dump_log_secure_fileid.png</String></Pair>
+				<Pair key="title"><String>Записать использование безопасного файла ID</String></Pair>
+				<Pair key="info"><String>Записывает имя файла сохранения и ключ идентификатора файла в файл журнала</String></Pair>
+				<Pair key="module_name"><String>xai_plugin</String></Pair>
+				<Pair key="module_action"><String>log_secureid</String></Pair>
+				<Pair key="bar_action"><String>none</String></Pair>
+				<Pair key="lbl_half"><String>1</String></Pair>
+			</Table>
+			<Table key="dump_disc_key">
+				<Pair key="icon"><String>/dev_flash/vsh/resource/explore/icon/dump_disc_hashkey.png</String></Pair>
+				<Pair key="title"><String>Ключ хэш-диска</String></Pair>
+				<Pair key="info"><String>Извлекает ключ хеша диска из ОРИГИНАЛЬНОГО игрового диска</String></Pair>
+				<Pair key="module_name"><String>xai_plugin</String></Pair>
+				<Pair key="module_action"><String>dump_disc_key</String></Pair>
+				<Pair key="bar_action"><String>none</String></Pair>
+				<Pair key="lbl_half"><String>1</String></Pair>
+			</Table>
+			<Table key="backup_registry">
+				<Pair key="icon"><String>/dev_flash/vsh/resource/explore/icon/dump_backup_xregistry.png</String></Pair>
+				<Pair key="title"><String>Резервное копирование xRegistry.sys</String></Pair>
+				<Pair key="info"><String></String></Pair>
+				<Pair key="module_name"><String>xai_plugin</String></Pair>
+				<Pair key="module_action"><String>backup_registry</String></Pair>
+				<Pair key="bar_action"><String>none</String></Pair>
+				<Pair key="lbl_half"><String>1</String></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="view_log"			attr="view_log"/>
+			<Item class="type:x-xmb/module-action" key="clean_log"			attr="clean_log"/>
+			<Item class="type:x-xmb/module-action" key="dump_idps"			attr="dump_idps"/>
+			<Item class="type:x-xmb/module-action" key="log_klic"			attr="log_klic"/>
+			<Item class="type:x-xmb/module-action" key="log_secureid"		attr="log_secureid"/>
+			<Item class="type:x-xmb/module-action" key="dump_disc_key"		attr="dump_disc_key"/>
+			<Item class="type:x-xmb/module-action" key="backup_registry"	attr="backup_registry"/>
+		</Items>
+	</View>
+
+	<View id="seg_recovery_menu">
+		<Attributes>
+			<Table key="applicable_version">
+				<Pair key="icon"><String>/dev_flash/vsh/resource/explore/icon/recovery_display_minver.png</String></Pair>
+				<Pair key="title"><String>Показать минимальную версию прошивки</String></Pair>
+				<Pair key="info"><String>Версия прошивки которая была установлена на заводе</String></Pair>
+				<Pair key="module_name"><String>xai_plugin</String></Pair>
+				<Pair key="module_action"><String>applicable_version</String></Pair>
+				<Pair key="ingame"><String>disable</String></Pair>
+				<Pair key="bar_action"><String>none</String></Pair>
+				<Pair key="lbl_half"><String>1</String></Pair>
+			</Table>
+			<Table key="fs_check">
+				<Pair key="icon"><String>/dev_flash/vsh/resource/explore/icon/recovery_check_file_system.png</String></Pair>
+				<Pair key="title"><String>Проверить файловую систему</String></Pair>
+				<Pair key="info"><String>Перезагрузить, проверить и восстановить файловую систему</String></Pair>
+				<Pair key="module_name"><String>xai_plugin</String></Pair>
+				<Pair key="module_action"><String>fs_check</String></Pair>
+				<Pair key="ingame"><String>disable</String></Pair>
+				<Pair key="bar_action"><String>none</String></Pair>
+				<Pair key="lbl_half"><String>1</String></Pair>
+			</Table>
+			<Table key="rebuild_db">
+				<Pair key="icon"><String>/dev_flash/vsh/resource/explore/icon/recovery_rebuild_db.png</String></Pair>
+				<Pair key="title"><String>Переконструрировать базу данных</String></Pair>
+				<Pair key="info"><String>Перезагрузить и переконструрировать базу данных</String></Pair>
+				<Pair key="module_name"><String>xai_plugin</String></Pair>
+				<Pair key="module_action"><String>rebuild_db</String></Pair>
+				<Pair key="ingame"><String>disable</String></Pair>
+				<Pair key="bar_action"><String>none</String></Pair>
+				<Pair key="lbl_half"><String>1</String></Pair>
+			</Table>
+			<Table key="recovery_mode">
+				<Pair key="icon"><String>/dev_flash/vsh/resource/explore/icon/recovery_toggle.png</String></Pair>
+				<Pair key="title"><String>Режим восстановления</String></Pair>
+				<Pair key="info"><String>Перезагрузить и войти в режим восстановления (не поддерживается на моделях с памятью NAND!)</String></Pair>
+				<Pair key="module_name"><String>xai_plugin</String></Pair>
+				<Pair key="module_action"><String>recovery_mode</String></Pair>
+				<Pair key="ingame"><String>disable</String></Pair>
+				<Pair key="bar_action"><String>none</String></Pair>
+				<Pair key="lbl_half"><String>1</String></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action"  key="applicable_version"	attr="applicable_version"/>
+			<Item class="type:x-xmb/module-action"  key="fs_check"				attr="fs_check"/>
+			<Item class="type:x-xmb/module-action"  key="rebuild_db"			attr="rebuild_db"/>
+			<Item class="type:x-xmb/module-action"  key="recovery_mode"			attr="recovery_mode"/>
+		</Items>
+	</View>
+
+</XMBML>
