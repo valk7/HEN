@@ -3,51 +3,43 @@
 # Homebrew Enabler Pro
 A exploit that allows the console to run unsigned code.</br>
  
-# Exclusive Features
+# Exclusive Features:
 </div>
+-Custom what's new items.</br>
+-Custom PlayStation™Store Shortcut items. (Video/Game/PSN)</br>
+-HEN Icon changes when Enabled.</br>
+-IP Adress on XMB™.</br>
+-Gameboot Sound Enabled.</br>
+</br>
+*Only when PS3™ 4K Pro is installed.
 
-## HEN 
-### Plugin:
--Added: Act.</br>dat restore on every boot.</br>
--Removed: Version notification.</br>
-
-### Payload:
--Added: HEN enabled icon.</br>
--Added: IP address on XMB.</br>
--Added: Custom what's new items.</br>
--Added: Gameboot sound.</br>
-  
-<details><summary>
- 
- # Changelogs
- 
- </summary>
+#  Changelogs 
+<details><summary>Spoiler</summary>
   
 # v3.0.4
-### HEN 
 ### Plugin:
 -Removed: Version notification.</br>
 
 ### Payload:
 -Added: HEN enabled icon.</br>
--Added: IP address on XMB™
+-Added: IP address on XMB™.</br>
 -Added: Custom what's new items.</br>
 -Added: Gameboot sound.</br>
 
 # v3.0.3
 ### Global:
--Added: Support for Firmware 4.</br>88.</br>
+-Added: Support for Firmware 4.88.</br>
 
 # v3.0.2
 ### Global:
--Added: Support for Firmware 4.</br>87.</br>
+-Added: Support for Firmware 4.87.</br>
 
 ### Resource:
 - HEN Loader.</br>
 
 # v3.0.1
 ### Global:
--Added: Support for Firmware 4.</br>86
+-Added: Support for Firmware 4.86.</br>
 
 ### Cobra PS3MAPI:
 -Added: Better set process memory by using the function used to actually write to process, this will allow user to write to memory where writing permissions are disabled.</br>
@@ -57,9 +49,9 @@ A exploit that allows the console to run unsigned code.</br>
 
 # v3.0.0
 ### Global:
--Removed: Support for Firmware 4.</br>82.</br>
+-Removed: Support for Firmware 4.82.</br>
 
-### HEN ### Plugin:
+### Plugin:
 -Fixed: System Freeze if DVD or CD is already inserted into PS3 when HEN is enabled.</br>
 -Fixed: Error message if reply length is too short from server.</br>
 
@@ -78,7 +70,7 @@ A exploit that allows the console to run unsigned code.</br>
 -Fixed: Hitching of PSX PAL on NTSC TV and vice versa.</br>
 -Fixed: Issue where people sometimes got stuck downloading games from PSN.</br>
 -Improved: Disabled VSH check in RIF that R and S cant be just 0.</br>
--Improved: PS3MAPI can now write to VSH text segment like CFW,
+-Improved: PS3MAPI can now write to VSH text segment like CFW </br>
 -Improved: Speed when loading NPDRM type 2 games (need original or RAP Activated RIF), CPU couldnt generate ECDSA fast enough.</br>
 -Removed: Unnecessary hooks on CellFsOpen/CellFsRead/CellFsClose, possibly increasing stability.</br>
 
@@ -87,11 +79,11 @@ A exploit that allows the console to run unsigned code.</br>
 -Improved: Remapping HFW XML from /dev_flash/ instead of /dev_hdd0/.</br>
 
 ### Resource:
--Improved: Updated path pointing to ps3hen_updater.</br>xml in hfw_settings.</br>xml.</br>
+-Improved: Updated path pointing to ps3hen_updater.</br>xml in hfw_settings.xml.</br>
 
 # v2.3.2
 ### Global:
--Added: Support for Firmware 4.</br>85.</br>
+-Added: Support for Firmware 4.85.</br>
 
 # v2.3.1
 
@@ -107,7 +99,6 @@ Resource
 -Improved: Fast exploit initialization.</br>
 -Improved: Increased sleep in html, removed from bins.</br>
 
-### HEN 
 ### Plugin:
 -Added: Automatic reboot upon HEN fail.</br>
 -Added: HEN Updater with version check.</br>
@@ -125,7 +116,7 @@ Resource
 
 # v2.2.2
 ### Payload:
--Added: USB Package installation support for HEN installer.</br> (/dev_usb000/HEN_UPD.</br>pkg)
+-Added: USB Package installation support for HEN installer. (/dev_usb000/HEN_UPD.pkg)</br>
 -Fixed: HEN initialization freeze.</br>
 -Fixed: HashCalc bug.</br>
 -Fixed: Syscall handler bug.</br>
@@ -137,7 +128,7 @@ Resource
 ### Global:
 -Added: HEN refresh and version display on initialize, using embedded plugin.</br>
 -Improced: Replaced dev_blind with dev_rewrite to maintain RW state at all times.</br>
--Improved: The stackframe and PS3HEN bins are now merged as a single payload binary.</br> (PS3HEN.</br>BIN)
+-Improved: The stackframe and PS3HEN bins are now merged as a single payload binary. (PS3HEN.BIN)</br>
 
 ### Plugin:
 -Added: HEN version notification on boot.</br>
@@ -151,8 +142,8 @@ Resource
 -Added: HMAC Hash Validation.</br>
 -Added: Missing COBRA patches & BT/USB passthrough support.</br>
 -Added: PS2 Classics launcher activation on the fly.</br>
--Added: PSP ISO Launcher Support
--Added: Self Threading Support, fixing the issue with a few games.</br> (SC Trilogy and etc)
+-Added: PSP ISO Launcher Support.</br>
+-Added: Self Threading Support, fixing the issue with a few games. (SC Trilogy and etc) </br>
 -Added:: Cleanup thread.</br>
 -Fixed: Encryption.</br>
 -Fixed: Kernel plugin bug.</br>
@@ -160,7 +151,7 @@ Resource
 -Improved: Compatibility with apps like MultiMan and others which replace syscall 6-10.</br>
 -Improved: Faster boot times for apps.</br>
 -Improved: Memory Management of map_path.</br>
--Improved: Memory Optimization.</br> (no embedded buffer for kernel plugin, only allocs when requested)
+-Improved: Memory Optimization. (no embedded buffer for kernel plugin, only allocs when requested) </br>
 -Improved: SELF auth.</br>
 -Improved:: HEN Installer feature and memory management changes.</br>
 
@@ -174,17 +165,17 @@ Resource
 
 # v2.2.0
 ### Stackframe Binary:
--Added: Support for Firmware 4.</br>82.</br>
+-Added: Support for Firmware 4.82.</br>
 -Improved: Each FW version has its own payload, stackframe, package, and update XML.</br>
 
-### HEN ### Plugin:
+### Plugin:
 -Added: HEN check added to verify if HEN enabled, and to prevent freezing.</br>
 -Fixed: PSNPatch freeze.</br>
 -Improved: Remap for HFW settings is now fully protected, no more disappearing HFW tools.</br>
 -Improved: Stability patches added on initial boot process.</br>
 
 ### Resource:
--Added: PKG Linker entries added to category_game.</br>xml.</br>
+-Added: PKG Linker entries added to category_game.xml.</br>
 
 # v2.1.0
 ### Payload:
@@ -193,8 +184,7 @@ Resource
 -Improved: AES calculation now uses internal library from LV2.</br>
 -Improved: Payload size is reduced by 20kb.</br>
 -Improved: RAP can now be loaded / accessed from dev_hdd0/exdata.</br>
-
-### HEN 
+ 
 ### Plugin:
 -Added: HEN check added to verify if HEN enabled, and to prevent freezing.</br>
 -Fixed: PSNPatch freeze.</br>
@@ -216,8 +206,8 @@ Resource
 -Added: Hybrid Firmware Tools available when HEN's activated.</br>
 -Added: Multiple path on boot_plugins & boot_plugins_kernel (HDD & USB).</br>
 -Added: PS2 classics launcher support.</br>
--Added: RAP activation on the fly.</br> (usb000/exdata/<rap> or usb001/exdata/<rap>)
--Fixed: Explore_plugin.</br>sprx patches.</br>
+-Added: RAP activation on the fly.  (usb000/exdata/<rap> or usb001/exdata/<rap>)</br>
+-Fixed: Explore_plugin.sprx patches.</br>
 -Fixed: Install All Packages.</br>
 -Fixed: Issue with official NPDRM content rif deletion and unable to boot error.</br>
 -Improved: Games compatibilty.</br>
@@ -230,15 +220,15 @@ Resource
 # v2.0.1
 ### Payload:
 -Added option to re-enable cfw syscall by accessing the system update menu on XMB Settings.</br>
--Improved: mappath for enabling xai_plugin.</br>sprx.</br>
+-Improved: mappath for enabling xai_plugin.sprx.</br>
 
 # v2.0.0
 ### Payload:
--Added: Full BD/DVD ISO support.</br> (AACS decryption required for BDRip)
+-Added: Full BD/DVD ISO support. (AACS decryption required for BDRip)</br>
 -Added: ISO support.</br>
 -Added: KW stealth extensions.</br>
 -Added: Kernel plugins support.</br>
--Added: Opcode 1339, returns HEN version.</br> (0x0200)
+-Added: Opcode 1339, returns HEN version. (0x0200) </br>
 -Added: Photo gui opcode support for webMAN.</br>
 -Fixed: Blackscreen crashes.</br>
 -Fixed: Random lv2 panic.</br>
@@ -255,13 +245,14 @@ Resource
 -Added: Boot plugins support.</br>
 -Added: Debug PKG install.</br>
 -Added: Homebrew Root Flags.</br>
--Added: Kernel memory RWX.</br> (execute kernel payload like this at high locations or hook syscalls etc)
+-Added: Kernel memory RWX. (execute kernel payload like this at high locations or hook syscalls etc) </br>
 -Added: PS3MAPI support.</br>
 -Added: PSXISO support.</br>
 -Added: RWX permissions for processes executed after HEN has been enabled.</br>
 -Added: Support for HAN PKG.</br>
--Added: Support for Homebrew resigned with 3.</br>55 keys and lower.</br>
+-Added: Support for Homebrew resigned with 3.55 keys and lower.</br>
 -Added: Syscall 6,7,8,15.</br>
+
 </details> 
 
 # Credits
@@ -271,5 +262,5 @@ PS3Xploit Team:
 -bguerville.</br>
 -Habib.</br>
 
-#Official website:
--[http://ps3xploit.</br>com/](http://ps3xploit.</br>com/)
+# Official Website:
+[http://ps3xploit.com/](http://ps3xploit.com/)
