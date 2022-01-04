@@ -5,7 +5,7 @@ A exploit that allows the console to run unsigned code.</br>
  
 # Exclusive Features:
 </div>
--Custom what's new items.</br>
+-Custom What's new items.</br>
 -Custom PlayStation™Store Shortcut items. (Video/Game/PSN)</br>
 -HEN Icon changes when Enabled.</br>
 -IP Adress on XMB™.</br>
