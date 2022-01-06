@@ -15,7 +15,7 @@ A exploit that allows the console to run unsigned code.</br>
 | Gameboot Sound Enabled |
 
 </br>
-***Requires PS3™ 4K Pro is installed.***
+**Requires PS3™ 4K Pro installed**
  
 #  Changelogs 
  
