@@ -15,7 +15,7 @@ A exploit that allows the console to run unsigned code.</br>
 | Gameboot Sound Enabled |
 
 </br>
-*Only when PS3™ 4K Pro is installed.
+***Requires PS3™ 4K Pro is installed.***
  
 #  Changelogs 
  
@@ -259,21 +259,15 @@ Resource
 -Added: Syscall 6,7,8,15.</br>
 
 </details> 
-
-<div align="center"> 
  
 # Credits
- 
-</div>
 
-PS3Xploit Team:
+PS3Xploit Team:</br>
 -W.</br>
 -esc0rtd3w.</br>
 -bguerville.</br>
 -Habib.</br>
 
-<div align="center"> 
- 
 # Official Website:
 [http://ps3xploit.com/](http://ps3xploit.com/)
  
