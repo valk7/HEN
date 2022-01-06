@@ -4,18 +4,23 @@
 A exploit that allows the console to run unsigned code.</br>
  
 # Exclusive Features:
-</div>
--Custom What's new items.</br>
--Custom PlayStation™Store Shortcut items. (Video/Game/PSN)</br>
--HEN Icon changes when Enabled.</br>
--IP Adress on XMB™.</br>
--Gameboot Sound Enabled.</br>
+
+
+|HEN Pro|
+|----------------------
+| Custom What's New items |
+| Custom PlayStation™Store (Video/Game/PSN) Shortcut items |
+| HEN Icon changes when Enabled |
+| IP Adress on XMB™ |
+| Gameboot Sound Enabled |
+
 </br>
 *Only when PS3™ 4K Pro is installed.
-
+ 
 #  Changelogs 
+ 
 <details><summary>Spoiler</summary>
-  
+
 # v3.0.4
 ### Plugin:
 -Removed: Version notification.</br>
@@ -255,12 +260,21 @@ Resource
 
 </details> 
 
+<div align="center"> 
+ 
 # Credits
+ 
+</div>
+
 PS3Xploit Team:
 -W.</br>
 -esc0rtd3w.</br>
 -bguerville.</br>
 -Habib.</br>
 
+<div align="center"> 
+ 
 # Official Website:
 [http://ps3xploit.com/](http://ps3xploit.com/)
+ 
+</div>
