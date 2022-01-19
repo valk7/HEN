@@ -8,7 +8,6 @@ A exploit that allows the console to run unsigned code.</br>
 
 # Exclusive Features:
 
-
 |HEN™ 4K Pro|
 |----------------------
 | Custom What's New items |
@@ -35,6 +34,7 @@ A exploit that allows the console to run unsigned code.</br>
 -Added: IP address on XMB™.</br>
 -Added: Custom what's new items.</br>
 -Added: Gameboot sound.</br>
+-Added: System Update Unlock after HEN is enabled.</br>
 
 # v3.0.3
 ### Global:
