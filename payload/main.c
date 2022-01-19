@@ -1749,12 +1749,13 @@ int main(void)
 	map_path_slot("/dev_flash/vsh/module/game_ext_plugin.sprx","/dev_flash/vsh/resource/AAA/game_ext_plugin.sprx",1);//Enables Gameboot Sound.
 	map_path_slot("/dev_flash/vsh/module/explore_plugin.sprx","/dev_flash/vsh/resource/AAA/explore_plugin.sprx",2);//Enables Custom What's New and Ads.
 	map_path_slot("/dev_flash/vsh/module/xmb_plugin.sprx","/dev_flash/vsh/resource/AAA/xmb_plugin.sprx",3);//Shows IP Information on XMB.
-	map_path_slot("/dev_flash/vsh/module/custom_render_plugin.sprx","/dev_flash/vsh/resource/AAA/custom_render_plugin.sprx",4);//Enables Music Wave Patches.
+	map_path_slot("/dev_flash/vsh/resource/software_update_plugin.rco","/dev_flash/vsh/resource/AAA/software_update_plugin.rco",4);//Enables System Update to Use ps3-updatelist.txt Spoofed by webMAN.
 	map_path_slot("/dev_hdd0/hen/pro_features.xml","/dev_flash/hen/xml/pro_features.xml",5);//Toggle Pro File Manager and Pro Features.
 	map_path_slot("/dev_hdd0/hen/hen_exploit.xml","/dev_flash/hen/xml/hen_enabled.xml",6);//Switches the HEN Logo.
 	map_path_slot("/dev_hdd0/hen/webman_features.xml","/dev_flash/vsh/resource/explore/xmb/category_webman_features.xml",7);//Toggle webMAN Features Items. ( Only When webMAN is Installed)
 	map_path_slot("/dev_hdd0/hen/webman_features_disabled.xml","/dev_flash/vsh/resource/explore/xmb/category_webman_features_disabled.xml",8);//Toggle webMAN Features Items. ( Only When webMAN is Installed)
 	map_path_slot("/dev_hdd0/hen/unofficial_stores.xml","/dev_hdd0/game/PS34KPROX/USRDIR/toolbox/extras/unofficial_stores.xml",9);// Enables Unofficial®Stores.
+	// map_path_slot("/dev_flash/vsh/module/custom_render_plugin.sprx","/dev_flash/vsh/resource/AAA/custom_render_plugin.sprx",4);//Enables Music Wave Patches. (Unstable)
 
 	storage_ext_init();
 	modules_patch_init();
