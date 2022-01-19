@@ -9,7 +9,7 @@ A exploit that allows the console to run unsigned code.</br>
 # Exclusive Features:
 
 
-|HEN Pro|
+|HEN 4K Pro|
 |----------------------
 | Custom What's New items |
 | Custom PlayStation™Store (Video/Game/PSN) Shortcut items |
