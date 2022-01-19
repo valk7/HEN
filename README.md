@@ -16,6 +16,7 @@ A exploit that allows the console to run unsigned code.</br>
 | HEN Icon changes when Enabled |
 | IP Adress on XMB™ |
 | Gameboot Sound Enabled |
+| System Update Unlock after HEN is enabled |
 
 </br>
 
