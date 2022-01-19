@@ -1,6 +1,6 @@
 <div align="center"> 
 
-# Homebrew Enabler Pro
+# Homebrew Enabler™ Pro
 A exploit that allows the console to run unsigned code.</br>
 
 ![Hen Disabled](https://user-images.githubusercontent.com/74815634/148464759-62bed1d8-b944-411a-b9f5-209a5d73b1b4.png)
@@ -9,7 +9,7 @@ A exploit that allows the console to run unsigned code.</br>
 # Exclusive Features:
 
 
-|HEN 4K Pro|
+|HEN™ 4K Pro|
 |----------------------
 | Custom What's New items |
 | Custom PlayStation™Store (Video/Game/PSN) Shortcut items |
