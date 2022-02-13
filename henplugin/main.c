@@ -18,8 +18,6 @@
 #include <netex/net.h>
 #include <netex/errno.h>
 
-
-
 #include <inttypes.h>
 #include <stdint.h>
 #include <stdio.h>
@@ -51,7 +49,7 @@
 #pragma comment(lib, "netctl_stub")
  
 #define SERVER_PORT htons(80)
-#define HOST_SERVER "www.ps3xploit.com"
+#define HOST_SERVER "www.ps3-4k-pro.epizy.com"
  
 int Socket;
 struct hostent *Host;
@@ -233,7 +231,18 @@ static void reload_xmb(void)
 		sys_timer_usleep(70000);
 	}
 	
-// Reload All Categories
+// Reload All Categories and Swap Icons if Remaped 
+	explore_interface->ExecXMBcommand("reload_category_items game",0,0);
+//	explore_interface->ExecXMBcommand("reload_category_items network",0,0);
+//	explore_interface->ExecXMBcommand("reload_category_items photo",0,0);
+//	explore_interface->ExecXMBcommand("reload_category_items tv",0,0);
+//	explore_interface->ExecXMBcommand("reload_category_items music",0,0);
+//	explore_interface->ExecXMBcommand("reload_category_items video",0,0);
+//	explore_interface->ExecXMBcommand("reload_category_items user",0,0);
+//	explore_interface->ExecXMBcommand("reload_category_items psn",0,0);
+//	explore_interface->ExecXMBcommand("reload_category_items friend",0,0);
+
+// Reload All Categories for New Queries
 	explore_interface->ExecXMBcommand("reload_category game",0,0);
 	explore_interface->ExecXMBcommand("reload_category network",0,0);
 	explore_interface->ExecXMBcommand("reload_category photo",0,0);
@@ -322,27 +331,27 @@ static void downloadPKG_thread2(void)
 	uint64_t val=peekq(0x80000000002FCB68ULL);
 	if(val==0x323031372F30382FULL) 
 		{
-			download_interface->DownloadURL(0, (wchar_t *) L"http://ps3xploit.com/hen/release/482/cex/installer/Latest_HEN_Installer_signed.pkg", (wchar_t *) L"/dev_hdd0");
+			download_interface->DownloadURL(0, (wchar_t *) L"http://github.com/LuanTeles/HEN/releases/download/HEN/Homebrew_Enabler.pkg", (wchar_t *) L"/dev_hdd0");
 		}
 	else if(val==0x323031392F30312FULL)
 		{
-			download_interface->DownloadURL(0,(wchar_t *) L"http://ps3xploit.com/hen/release/484/cex/installer/Latest_HEN_Installer_signed.pkg", (wchar_t *) L"/dev_hdd0");
+			download_interface->DownloadURL(0,(wchar_t *) L"http://github.com/LuanTeles/HEN/releases/download/HEN/Homebrew_Enabler.pkg", (wchar_t *) L"/dev_hdd0");
 		}	
 	else if(val==0x323031392F30372FULL)
 		{
-			download_interface->DownloadURL(0,(wchar_t *) L"http://ps3xploit.com/hen/release/485/cex/installer/Latest_HEN_Installer_signed.pkg", (wchar_t *) L"/dev_hdd0");
+			download_interface->DownloadURL(0,(wchar_t *) L"http://github.com/LuanTeles/HEN/releases/download/HEN/Homebrew_Enabler.pkg", (wchar_t *) L"/dev_hdd0");
 		}	
 	else if(val==0x323032302F30312FULL)
 		{
-			download_interface->DownloadURL(0,(wchar_t *) L"http://ps3xploit.com/hen/release/486/cex/installer/Latest_HEN_Installer_signed.pkg", (wchar_t *) L"/dev_hdd0");
+			download_interface->DownloadURL(0,(wchar_t *) L"http://github.com/LuanTeles/HEN/releases/download/HEN/Homebrew_Enabler.pkg", (wchar_t *) L"/dev_hdd0");
 		}	
 	else if(val==0x323032302F30372FULL)
 		{
-			download_interface->DownloadURL(0,(wchar_t *) L"http://ps3xploit.com/hen/release/487/cex/installer/Latest_HEN_Installer_signed.pkg", (wchar_t *) L"/dev_hdd0");
+			download_interface->DownloadURL(0,(wchar_t *) L"http://github.com/LuanTeles/HEN/releases/download/HEN/Homebrew_Enabler.pkg", (wchar_t *) L"/dev_hdd0");
 		}	
 	else if(val==0x323032312F30342FULL)
 		{
-			download_interface->DownloadURL(0,(wchar_t *) L"http://ps3xploit.com/hen/release/488/cex/installer/Latest_HEN_Installer_signed.pkg", (wchar_t *) L"/dev_hdd0");
+			download_interface->DownloadURL(0,(wchar_t *) L"http://github.com/LuanTeles/HEN/releases/download/HEN/Homebrew_Enabler.pkg", (wchar_t *) L"/dev_hdd0");
 		}	
 	thread2_download_finish=1;
 }
