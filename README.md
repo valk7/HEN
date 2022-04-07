@@ -1,6 +1,6 @@
 <div align="center"> 
 
-# Homebrew Enabler™ Pro
+# Homebrew Enabler Pro™
 A exploit that allows the console to run unsigned code.</br>
 
 ![Hen Disabled](https://user-images.githubusercontent.com/74815634/148464759-62bed1d8-b944-411a-b9f5-209a5d73b1b4.png)
@@ -15,7 +15,6 @@ A exploit that allows the console to run unsigned code.</br>
 | HEN Icon changes when Enabled |
 | IP Adress on XMB™ |
 | Gameboot Sound Enabled |
-| System Update Unlock after HEN is enabled |
 
 </br>
 
@@ -62,7 +61,7 @@ A exploit that allows the console to run unsigned code.</br>
 -Removed: Support for Firmware 4.82.</br>
 
 ### Plugin:
--Fixed: System Freeze if DVD or CD is already inserted into PS3 when HEN is enabled.</br>
+-Fixed: System Freeze if DVD or CD is already inserted into PS3™ when HEN is enabled.</br>
 -Fixed: Error message if reply length is too short from server.</br>
 
 ### Payload:
@@ -151,8 +150,8 @@ Resource
 -Added: Get map path opcode.</br>
 -Added: HMAC Hash Validation.</br>
 -Added: Missing COBRA patches & BT/USB passthrough support.</br>
--Added: PS2 Classics launcher activation on the fly.</br>
--Added: PSP ISO Launcher Support.</br>
+-Added: PS2™ Classics launcher activation on the fly.</br>
+-Added: PSP™ ISO Launcher Support.</br>
 -Added: Self Threading Support, fixing the issue with a few games. (SC Trilogy and etc) </br>
 -Added:: Cleanup thread.</br>
 -Fixed: Encryption.</br>
@@ -215,7 +214,7 @@ Resource
 -Added: Dev_blind enabled by default.</br>
 -Added: Hybrid Firmware Tools available when HEN's activated.</br>
 -Added: Multiple path on boot_plugins & boot_plugins_kernel (HDD & USB).</br>
--Added: PS2 classics launcher support.</br>
+-Added: PS2™ classics launcher support.</br>
 -Added: RAP activation on the fly.  (usb000/exdata/<rap> or usb001/exdata/<rap>)</br>
 -Fixed: Explore_plugin.sprx patches.</br>
 -Fixed: Install All Packages.</br>
@@ -229,8 +228,8 @@ Resource
 
 # v2.0.1
 ### Payload:
--Added option to re-enable cfw syscall by accessing the system update menu on XMB Settings.</br>
--Improved: mappath for enabling xai_plugin.sprx.</br>
+-Added Option to re-enable cfw syscall by accessing the system update menu on XMB Settings.</br>
+-Improved: Mappath for enabling xai_plugin.sprx.</br>
 
 # v2.0.0
 ### Payload:
